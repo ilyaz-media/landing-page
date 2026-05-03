@@ -14,7 +14,7 @@ export default function Home() {
         </h1>
         <h1 className=" text-2xl lg:text-5xl leading-tight font-[550]">
           Buat Website Impianmu Profesional, Modern, <br />
-          dan Cepat
+         <span className="text-cyan-500">dan cepat</span>
         </h1>
 
         <div>
