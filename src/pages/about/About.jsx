@@ -40,10 +40,10 @@ export default function About() {
           </p>
           {/* 3 */}
           <div className="flex gap-5">
-            <button className="px-5 py-3 text-white bg-cyan-500 flex items-center rounded-lg shadow-lg gap-2 ">
+            <button className=" px-3 py-2 text-sm lg:text-base lg:px-5 lg:py-3 text-white bg-cyan-500 flex items-center rounded-lg shadow-lg gap-2 ">
               Lihat Portofolio <FolderOpen />
             </button>{" "}
-            <button className="px-5 py-3 text-cyan-600 bg-white flex items-center rounded-lg shadow-lg gap-2 ">
+            <button className="px-3 py-2 text-sm lg:text-base lg:px-5 lg:py-3 text-cyan-600 bg-white flex items-center rounded-lg shadow-lg gap-2 ">
               Download CV <Download/>
             </button>{" "}
           </div>

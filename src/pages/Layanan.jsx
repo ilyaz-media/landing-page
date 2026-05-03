@@ -39,7 +39,7 @@ export default function Layanan() {
 
       {/*  */}
 
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-5  p-10 mt-5">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 p-2  lg:p-10 mt-5">
         {services.map((item) => {
           const Icon = item.icon;
           return (
