@@ -48,7 +48,7 @@ const projects =[
       </div>
       <div className="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-2">
         {projects.map((item)=> {
-            return <div className='p-2 text-gray-800'>
+            return <div className='p-2 text-gray-800'   data-aos='fade-up'>
                 <img src={item.gambar} className='rounded-md shadow-lg' alt="" />
                 <div className='p-2 mt-2 text-sm'>
                     <h1 className='font-bold'>{item.judul}</h1>

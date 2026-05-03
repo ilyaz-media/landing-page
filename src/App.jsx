@@ -5,7 +5,10 @@ import Portofolio from "./pages/Portofolio";
 import Testimoni from "./pages/Testimoni";
 import About from "./pages/about/About";
 import Harga from "./pages/Harga";
-import aos from 'aos'
+import aos from 'aos';
+import 'aos/dist/aos.css'; 
+
+
 import { useEffect } from "react";
 
 
@@ -15,7 +18,10 @@ export default function App() {
 
   useEffect(()=>{
     aos.init({
-      duration:3000
+
+      duration:1100,
+      once :false
+      
     })
   },[])
   return (

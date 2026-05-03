@@ -16,7 +16,7 @@ export default function Home() {
       id="home"
       className="scroll-mt-20 min-h-screen pt-20 bg-gradient-to-b from-white to-cyan-50 grid grid-cols-1 lg:grid-cols-2   px-5 lg:px-10">
       {/* left */}
-      <div className="  flex flex-col justify-center gap-5 text-gray-800 py-10  ">
+      <div  data-aos='fade-up' className="  flex flex-col justify-center gap-5 text-gray-800 py-10  ">
         <h1 className="text-cyan-500 bg-cyan-50 rounded-lg w-fit px-2">
           JASA PEMBUATAN WEBSITE PROFESIONAL
         </h1>
@@ -76,7 +76,7 @@ export default function Home() {
       </div>
 
       {/* right */}
-      <div className=" mockup  relative p-5 lg:p-5">
+      <div className=" mockup  relative p-5 lg:p-5"  data-aos='fade-down'>
         <svg
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/svg"

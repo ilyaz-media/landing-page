@@ -27,7 +27,7 @@ export default function About() {
 
         </div>
         {/* right */}
-        <div className="p-5 flex flex-col justify-center gap-5">
+        <div className="p-5 flex flex-col justify-center gap-5"  data-aos='fade-up'>
           {/* 1 */}
           <p className="text-sm leading-normal">
             Saya adalah seorang web developer yang fokus membantu pembuatan
@@ -53,7 +53,7 @@ export default function About() {
       {/* grid 2 */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 px-5 md:px-5 items-center mt-10 ">
         {/* left */}
-        <div className="flex-1 ">
+        <div className="flex-1 "  data-aos='fade-down'>
           <h1 className="text-xl font-semibold">
             Membantu Anda Memiliki Website Profesional
           </h1>
