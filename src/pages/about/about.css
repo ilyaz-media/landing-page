@@ -1,0 +1,36 @@
+.blurAbout{
+    position: relative;
+    z-index: 1;
+}
+.blurAbout::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-color:#2dd4bf;
+    filter: blur(50px);
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    border-radius: 50%;
+   
+}
+
+.blurMockup{
+    position: relative;
+    z-index: 1;
+}
+
+.blurMockup::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    /* background-color: rgba(128, 128, 128, 0.553); */
+    z-index: -1;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    bottom: 20%;
+    filter: blur(30px);
+
+}
